@@ -1,0 +1,17 @@
+<!HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <FROM ACTION="REGISTER.JAVA">
+        <LABLE FOR="">NAME</LABLE>
+        <INPUT TYPE=""TEXT"><BR><BR>
+            <LABLE FOR="">PASSWORD</LABLE>
+         <INPUT TYPE=""PASSWORD"><BR><BR>
+    
+</body>
+</html>

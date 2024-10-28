@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<style>
+    .outer {
+        padding: 150px;
+        border: 1px solid skyblue;
+        background-color: rgb(135, 207, 235);
+        z-index: 1;
+    }
+
+    .inner {
+        background-color: white;
+        border: 1px solid gainsboro;
+        box-shadow: 0px 0px 10px 5px rgba(7, 7, 94, 0.333);
+        padding: 35px;
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .Header {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .Header h3 {
+        font-family: sans-serif;
+        color: rgba(7, 7, 94, 0.916);
+        text-transform: uppercase;
+        padding-right: 380px;
+        z-index: 1;
+    }
+
+    .Header li {
+        list-style-type: none;
+        text-transform: capitalize;
+        display: inline-flex;
+        font-family: sans-serif;
+        padding: 0px 20px;
+        color: rgb(79, 136, 159);
+    }
+
+    .Header li:hover {
+        background-color: rgba(7, 7, 94, 0.808);
+        color: white;
+        text-transform: uppercase;
+        font-size: smaller;
+        border-radius: 30px;
+        padding: 4px 10px;
+    }
+
+    .leftPart h1 {
+        text-transform: capitalize;
+        font-family: sans-serif;
+        color: rgba(7, 7, 94, 0.916);
+        font-size: 50px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .leftPart h2 {
+        text-transform: uppercase;
+        font-family: sans-serif;
+        color: rgb(79, 136, 159);
+        position: absolute;
+        top: 390px;
+        font-weight: 550;
+        z-index: 1;
+    }
+
+    .leftPart p {
+        padding-top: 50px;
+        width: 20%;
+        color: rgb(79, 136, 159);
+        font-family: sans-serif;
+        font-size: 14.5px;
+    }
+
+    .leftPart click {
+        background-color: rgb(79, 136, 159);
+        padding: 6px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: small;
+        color: #fff;
+    }
+
+    .leftPart img {
+        position: relative;
+        top: 100px;
+        left: -100px;
+        width: 25px;
+        padding: 0px 15px 0px 0px;
+    }
+
+    .rightPart img {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        top: -330px;
+        left: 530px;
+        z-index: 1;
+    }
+
+    .round p {
+        position: relative;
+        top: -950px;
+        left: -190px;
+        opacity: 0.5;
+        width: 700px;
+        height: 700px;
+        background-color: skyblue;
+        opacity: 0.2;
+        border-radius: 50%;
+    }
+
+    .round .one {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        top: -1500px;
+        left: -100px;
+        opacity: 0.5;
+    }
+
+    .round .two {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        top: -1700px;
+        left: 400px;
+        opacity: 0.5;
+
+    }
+
+    .round .three {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        top: -1900px;
+        left: 150px;
+        opacity: 0.5;
+
+    }
+
+    .round .four {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        top: -1800px;
+        left: 200px;
+        opacity: 1;
+
+    }
+
+    .round .five {
+        position: relative;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        top: -1940px;
+        left: 400px;
+        opacity: 1;
+    }
+</style>
+
+<body>
+
+    <div class="outer">
+        <div class="inner">
+            <div class="Header">
+                <h3>logo</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>about us</li>
+                    <li>services</li>
+                    <li>contact us</li>
+                    <li>get started</li>
+                </ul>
+            </div>
+            <div class="leftPart">
+                <h1>web <br> design</h1>
+                <h2>landing page</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dicta, dolor optio earum ipsum nisi pariatur. Enim, tenetur. Ullam, quaerat cupiditate.</p>
+                <click>learn more</click>
+                <img src="inst.jpg" alt="">
+                <img src="sw.jpg" alt="">
+                <img src="fb.jpg" alt="">
+            </div>
+
+            <div class="rightPart">
+                <img src="wd_bg_img.js.png" alt="">
+            </div>
+            <div class="round">
+                <p></p>
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+                <div class="five"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

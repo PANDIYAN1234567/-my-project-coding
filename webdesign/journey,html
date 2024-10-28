@@ -1,0 +1,45 @@
+<!html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border:1px solid black ;
+            border-collapse:collapse ;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">namelist</th>
+        </tr>
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>number</th>
+            <th>college</th>
+        </tr>
+        <tr>
+            <td>pandiyan</td>
+            <td>23</td>
+            <td>7550375752</td>
+            <th rowspan="3">l <br>n <br>g  </th>
+        </tr>
+        <tr>
+            <td>jannu</td>
+            <td>22</td>
+            <td>9176154176</td>
+        </tr>
+        <tr>
+            <td>sandiya</td>
+            <td>22</td>
+            <td>8489880747</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
